@@ -1,6 +1,4 @@
-FROM rethinkdb:2.3.5
-
-MAINTAINER Ross Kukulinski <ross@kukulinski.com>
+FROM rethinkdb:2.3.6
 
 RUN apt-get update && \
     apt-get install -yq curl && \
